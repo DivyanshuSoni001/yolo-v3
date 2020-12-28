@@ -20,7 +20,6 @@ For Windows:
 You can download the yolov3 weights by clicking [here](https://pjreddie.com/media/files/yolov3.weights) and adding them to the weights folder.
 
 ### Using Custom trained weights
-<strong> Learn How To Train Custom YOLOV3 Weights Here: https://www.youtube.com/watch?v=zJDUhGL26iU </strong>
 
 Add your custom weights file to weights folder and your custom .names file into data/labels folder.
 
@@ -72,11 +71,6 @@ The script can also be ran using your laptops webcam as the input. Example comma
 python detect.py webcam 0.5 0.5
 ```
 The detections will be saved as 'detections.mp4' in the data/detections folder.
-
-## To-Do List
-* Finish migration to full TF 2.0 (remove tf.compat.v1)
-* Model training
-* Tiny Yolo Configuration
 
 ## Acknowledgments
 * [Yolo v3 official paper](https://arxiv.org/abs/1804.02767)
